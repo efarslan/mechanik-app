@@ -36,12 +36,12 @@ Mechänik, araç servis işletmelerinin müşteri, işlem ve araç takibini kola
 ### 1. Projeyi klonla
 
 ```bash
-git clone https://github.com/efarslan/Mechänik.git
+git clone https://github.com/efarslan/mechanik-app.git
 ```
 ### 2. Firebase Projesi Oluştur
 
 - [Firebase Console](https://console.firebase.google.com) üzerinden yeni bir proje oluştur.
-- iOS platformunu seç ve Bundle ID olarak `com.efearslan.Mechänik` kullan.
+- iOS platformunu seç ve Bundle ID olarak `com.efearslan.Mechanik` kullan.
 - Oluşturulan `GoogleService-Info.plist` dosyasını indir ve Xcode projesine **drag & drop** ile ekle.
 - Bu dosya `.gitignore` ile korunmaktadır, GitHub’a yüklenmemiştir.
 
