@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E0813242DE0B8F300C67CA1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4E0813232DE0B8F300C67CA1 /* FirebaseAuth */; };
+		4E722AB42D9980AF00B7EF50 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4E722AB32D9980AF00B7EF50 /* FirebaseFirestore */; };
+		4E84600C2DCB7BA800F898DA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4E84600B2DCB7BA800F898DA /* Lottie */; };
+		4EC706D62DD22C8A00A76ECE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4EC706D52DD22C8A00A76ECE /* FirebaseStorage */; };
+		4EF0A3A92DE360E000149D4F /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 4EF0A3A82DE360E000149D4F /* GoogleSignIn */; };
+		4EF0A3AB2DE360E000149D4F /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4EF0A3AA2DE360E000149D4F /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E722A7F2D997DB400B7EF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E722A662D997DB200B7EF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E722A6D2D997DB200B7EF50;
+			remoteInfo = Mechanik;
+		};
+		4E722A892D997DB400B7EF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E722A662D997DB200B7EF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E722A6D2D997DB200B7EF50;
+			remoteInfo = Mechanik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E8460102DCB7BA800F898DA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E722A6E2D997DB200B7EF50 /* Mechanik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mechanik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E722A7E2D997DB400B7EF50 /* MechanikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechanikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E722A882D997DB400B7EF50 /* MechanikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechanikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4EC706D82DD38AA000A76ECE /* Exceptions for "Mechanik" folder in "Mechanik" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				MechanikUITests/MechanikUITests.swift,
+				MechanikUITests/MechanikUITestsLaunchTests.swift,
+			);
+			target = 4E722A6D2D997DB200B7EF50 /* Mechanik */;
+		};
+		4EF2FE502DE0999100D2AB31 /* Exceptions for "Mechanik" folder in "MechanikUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MechanikUITests/MechanikUITests.swift,
+				MechanikUITests/MechanikUITestsLaunchTests.swift,
+			);
+			target = 4E722A872D997DB400B7EF50 /* MechanikUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4E722A702D997DB200B7EF50 /* Mechanik */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4EC706D82DD38AA000A76ECE /* Exceptions for "Mechanik" folder in "Mechanik" target */,
+				4EF2FE502DE0999100D2AB31 /* Exceptions for "Mechanik" folder in "MechanikUITests" target */,
+			);
+			path = Mechanik;
+			sourceTree = "<group>";
+		};
+		4E722A812D997DB400B7EF50 /* MechanikTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MechanikTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E722A6B2D997DB200B7EF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF0A3A92DE360E000149D4F /* GoogleSignIn in Frameworks */,
+				4E722AB42D9980AF00B7EF50 /* FirebaseFirestore in Frameworks */,
+				4E84600C2DCB7BA800F898DA /* Lottie in Frameworks */,
+				4EF0A3AB2DE360E000149D4F /* GoogleSignInSwift in Frameworks */,
+				4EC706D62DD22C8A00A76ECE /* FirebaseStorage in Frameworks */,
+				4E0813242DE0B8F300C67CA1 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E722A7B2D997DB400B7EF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E722A852D997DB400B7EF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E722A652D997DB200B7EF50 = {
+			isa = PBXGroup;
+			children = (
+				4E722A702D997DB200B7EF50 /* Mechanik */,
+				4E722A812D997DB400B7EF50 /* MechanikTests */,
+				4E722AB22D9980A100B7EF50 /* Frameworks */,
+				4E722A6F2D997DB200B7EF50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E722A6F2D997DB200B7EF50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E722A6E2D997DB200B7EF50 /* Mechanik.app */,
+				4E722A7E2D997DB400B7EF50 /* MechanikTests.xctest */,
+				4E722A882D997DB400B7EF50 /* MechanikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E722AB22D9980A100B7EF50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E722A6D2D997DB200B7EF50 /* Mechanik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E722A922D997DB400B7EF50 /* Build configuration list for PBXNativeTarget "Mechanik" */;
+			buildPhases = (
+				4E722A6A2D997DB200B7EF50 /* Sources */,
+				4E722A6B2D997DB200B7EF50 /* Frameworks */,
+				4E722A6C2D997DB200B7EF50 /* Resources */,
+				4E8460102DCB7BA800F898DA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4E722A702D997DB200B7EF50 /* Mechanik */,
+			);
+			name = Mechanik;
+			packageProductDependencies = (
+				4E722AB32D9980AF00B7EF50 /* FirebaseFirestore */,
+				4E84600B2DCB7BA800F898DA /* Lottie */,
+				4EC706D52DD22C8A00A76ECE /* FirebaseStorage */,
+				4E0813232DE0B8F300C67CA1 /* FirebaseAuth */,
+				4EF0A3A82DE360E000149D4F /* GoogleSignIn */,
+				4EF0A3AA2DE360E000149D4F /* GoogleSignInSwift */,
+			);
+			productName = Mechanik;
+			productReference = 4E722A6E2D997DB200B7EF50 /* Mechanik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E722A7D2D997DB400B7EF50 /* MechanikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E722A952D997DB400B7EF50 /* Build configuration list for PBXNativeTarget "MechanikTests" */;
+			buildPhases = (
+				4E722A7A2D997DB400B7EF50 /* Sources */,
+				4E722A7B2D997DB400B7EF50 /* Frameworks */,
+				4E722A7C2D997DB400B7EF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E722A802D997DB400B7EF50 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4E722A812D997DB400B7EF50 /* MechanikTests */,
+			);
+			name = MechanikTests;
+			packageProductDependencies = (
+			);
+			productName = MechanikTests;
+			productReference = 4E722A7E2D997DB400B7EF50 /* MechanikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E722A872D997DB400B7EF50 /* MechanikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E722A982D997DB400B7EF50 /* Build configuration list for PBXNativeTarget "MechanikUITests" */;
+			buildPhases = (
+				4E722A842D997DB400B7EF50 /* Sources */,
+				4E722A852D997DB400B7EF50 /* Frameworks */,
+				4E722A862D997DB400B7EF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E722A8A2D997DB400B7EF50 /* PBXTargetDependency */,
+			);
+			name = MechanikUITests;
+			packageProductDependencies = (
+			);
+			productName = MechanikUITests;
+			productReference = 4E722A882D997DB400B7EF50 /* MechanikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E722A662D997DB200B7EF50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4E722A6D2D997DB200B7EF50 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4E722A7D2D997DB400B7EF50 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4E722A6D2D997DB200B7EF50;
+					};
+					4E722A872D997DB400B7EF50 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4E722A6D2D997DB200B7EF50;
+					};
+				};
+			};
+			buildConfigurationList = 4E722A692D997DB200B7EF50 /* Build configuration list for PBXProject "Mechanik" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E722A652D997DB200B7EF50;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4E722AB12D997ED100B7EF50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				4E12E32A2DCB780B00468C1A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				4EF0A3A72DE360E000149D4F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4E722A6F2D997DB200B7EF50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E722A6D2D997DB200B7EF50 /* Mechanik */,
+				4E722A7D2D997DB400B7EF50 /* MechanikTests */,
+				4E722A872D997DB400B7EF50 /* MechanikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E722A6C2D997DB200B7EF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E722A7C2D997DB400B7EF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E722A862D997DB400B7EF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E722A6A2D997DB200B7EF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E722A7A2D997DB400B7EF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E722A842D997DB400B7EF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E722A802D997DB400B7EF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E722A6D2D997DB200B7EF50 /* Mechanik */;
+			targetProxy = 4E722A7F2D997DB400B7EF50 /* PBXContainerItemProxy */;
+		};
+		4E722A8A2D997DB400B7EF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E722A6D2D997DB200B7EF50 /* Mechanik */;
+			targetProxy = 4E722A892D997DB400B7EF50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E722A902D997DB400B7EF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E722A912D997DB400B7EF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E722A932D997DB400B7EF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mechanik/Mechanik.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mechanik/Preview Content\"";
+				DEVELOPMENT_TEAM = JM5M47C9QV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mechanik/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mechänik";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kamera kullanımı için izniniz gereklidir.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Fotoğraf eklemek için izniniz gereklidir.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapplication.Mechanik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E722A942D997DB400B7EF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mechanik/Mechanik.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mechanik/Preview Content\"";
+				DEVELOPMENT_TEAM = JM5M47C9QV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mechanik/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mechänik";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kamera kullanımı için izniniz gereklidir.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Fotoğraf eklemek için izniniz gereklidir.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapplication.Mechanik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E722A962D997DB400B7EF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JM5M47C9QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapplication.MechanikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mechanik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mechanik";
+			};
+			name = Debug;
+		};
+		4E722A972D997DB400B7EF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JM5M47C9QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapplication.MechanikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mechanik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mechanik";
+			};
+			name = Release;
+		};
+		4E722A992D997DB400B7EF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JM5M47C9QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapplication.MechanikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mechanik;
+			};
+			name = Debug;
+		};
+		4E722A9A2D997DB400B7EF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JM5M47C9QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapplication.MechanikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mechanik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E722A692D997DB200B7EF50 /* Build configuration list for PBXProject "Mechanik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E722A902D997DB400B7EF50 /* Debug */,
+				4E722A912D997DB400B7EF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E722A922D997DB400B7EF50 /* Build configuration list for PBXNativeTarget "Mechanik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E722A932D997DB400B7EF50 /* Debug */,
+				4E722A942D997DB400B7EF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E722A952D997DB400B7EF50 /* Build configuration list for PBXNativeTarget "MechanikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E722A962D997DB400B7EF50 /* Debug */,
+				4E722A972D997DB400B7EF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E722A982D997DB400B7EF50 /* Build configuration list for PBXNativeTarget "MechanikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E722A992D997DB400B7EF50 /* Debug */,
+				4E722A9A2D997DB400B7EF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E12E32A2DCB780B00468C1A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+		4E722AB12D997ED100B7EF50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
+		4EF0A3A72DE360E000149D4F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E0813232DE0B8F300C67CA1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E722AB12D997ED100B7EF50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4E722AB32D9980AF00B7EF50 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E722AB12D997ED100B7EF50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4E84600B2DCB7BA800F898DA /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E12E32A2DCB780B00468C1A /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		4EC706D52DD22C8A00A76ECE /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E722AB12D997ED100B7EF50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		4EF0A3A82DE360E000149D4F /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EF0A3A72DE360E000149D4F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		4EF0A3AA2DE360E000149D4F /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EF0A3A72DE360E000149D4F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4E722A662D997DB200B7EF50 /* Project object */;
+}
