@@ -20,9 +20,13 @@ Mechänik, araç servis işletmelerinin müşteri, işlem ve araç takibini kola
 
 <!-- Buraya `/Screenshots` klasörüne koyacağın ekran görüntüleri eklenecek -->
 <p float="left">
-  <img src="Screenshots/login.png" width="200" />
-  <img src="Screenshots/main.png" width="200" />
-  <img src="Screenshots/details.png" width="200" />
+  <img src="Screenshots/login.PNG" width="200" />
+  <img src="Screenshots/ana-ekran.PNG" width="200" />
+  <img src="Screenshots/arac-detay.PNG" width="200" />
+  <img src="Screenshots/yeni-islem.PNG" width="200" />
+  <img src="Screenshots/yeni-islem-secenek.PNG" width="200" />
+  <img src="Screenshots/animsatici.PNG" width="200" />
+  
 </p>
 
 ---
