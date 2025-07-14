@@ -49,7 +49,7 @@ git clone https://github.com/efarslan/mechanik-app.git
 
 #### ➕ Marka Koleksiyonu ve Modeller alt koleksiyonu elle oluşturmak yerine, hazır JSON dosyasını yükleyin:
 
-Projede yer alan `initialData/marka_model.json` dosyası, Firestore'daki marka ve model verilerini içerir.
+Projede yer alan `initialData/marka-model.json` dosyası, Firestore'daki marka ve model verilerini içerir.
 Firebase Admin SDK ile basit bir script kullanarak bu veriyi `markalar` koleksiyonuna ve `modeller` alt koleksiyonlarına hızlıca aktarabilirsiniz.
 Firestore Console üzerinden manuel olarak da veri girişine yardımcı olabilir.
 
